@@ -1024,169 +1024,67 @@ footer{
 </head>
 
 <body>
-
 <canvas id="particles"></canvas>
-<div class="ambient one"></div>
-<div class="ambient two"></div>
-
-<!-- NAVIGATION -->
+<div class="ambient one"></div><div class="ambient two"></div>
 
 <nav id="navbar">
  <a href="#home" class="logo">AYAZ<span>.</span></a>
-
  <div class="nav-right">
   <ul class="nav-links" id="navLinks">
    <li><a href="#about">About</a></li>
-   <li><a href="#experience">Experience</a></li>
+   <li><a href="#experience">Internships</a></li>
    <li><a href="#projects">Projects</a></li>
    <li><a href="#skills">Skills</a></li>
    <li><a href="#education">Education</a></li>
-   <li><a href="#certifications">Certificates</a></li>
    <li><a href="#contact">Contact</a></li>
   </ul>
-
   <a href="#contact" class="nav-cta">Let's Talk ↗</a>
-
-  <button class="menu-toggle" id="menuToggle"
-   aria-label="Toggle navigation" aria-expanded="false">
-   <i class="fa-solid fa-bars"></i>
-  </button>
+  <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation" aria-expanded="false"><i class="fa-solid fa-bars"></i></button>
  </div>
 </nav>
 
 <main>
-
-<!-- HERO -->
-
 <section class="hero container" id="home">
  <div class="hero-layout">
-
   <div class="reveal">
-
-   <div class="kicker">
-    <span class="live-dot"></span>
-    AI ENGINEERING · PYTHON · LLM APPLICATIONS
-   </div>
-
-   <h1>
-    Building<br>
-    <span class="gradient-text">Intelligent</span><br>
-    Systems.
-   </h1>
-
-   <p class="hero-subtitle">
-    I'm <strong>Ayaz Alam</strong>, a Computer Science graduate
-    exploring the intersection of
-    <strong>Artificial Intelligence, LLM applications and backend engineering.</strong>
-    I work with Python, SQL and data systems while building
-    practical AI-powered applications using modern LLM architectures.
-   </p>
-
+   <div class="kicker"><span class="live-dot"></span> GENERATIVE AI · LLM APPLICATIONS · PYTHON BACKEND</div>
+   <h1>Building<br><span class="gradient-text">Intelligent</span><br>Applications.</h1>
+   <p class="hero-subtitle">I'm <strong>Ayaz Alam</strong>, a Computer Science graduate focused on <strong>Generative AI, LLM Application Development and Python Backend Engineering.</strong> I build AI-powered applications using Python, FastAPI, Gemini, RAG, vector databases and modern web technologies.</p>
    <div class="hero-actions">
-    <a href="#projects" class="btn btn-primary">
-     Explore Projects <i class="fa-solid fa-arrow-down"></i>
-    </a>
-
-    <!-- PASTE YOUR RESUME GOOGLE DRIVE PDF LINK HERE -->
-    <a href="https://drive.google.com/file/d/1Voy_eIgdham0u2tJFs_7DN3-dWzR6sJY/view?usp=sharing"
-       target="_blank" rel="noopener noreferrer"
-       class="btn btn-outline">
-     <i class="fa-regular fa-file-pdf"></i>
-     Download Resume
-    </a>
+    <a href="#projects" class="btn btn-primary">Explore Projects <i class="fa-solid fa-arrow-right"></i></a>
+    <a href="https://github.com/ayazcse" target="_blank" rel="noopener noreferrer" class="btn btn-outline"><i class="fa-brands fa-github"></i> GitHub</a>
    </div>
-
    <div class="hero-meta">
-    <div class="meta-pill">Based in <b>Greater Noida, India</b></div>
-    <div class="meta-pill">B.Tech CSE <b>2026</b></div>
-    <div class="meta-pill">Focus <b>AI Engineering</b></div>
+    <span class="meta-pill"><b>2</b> Technical Projects</span>
+    <span class="meta-pill"><b>2</b> Relevant Internships</span>
+    <span class="meta-pill">Greater Noida, India</span>
    </div>
   </div>
-
-  <!-- PROFILE IMAGE -->
   <div class="orbit-area reveal">
-   <div class="orbit">
-
-    <!-- Put your photo inside assets/ayaz-alam.jpg -->
-    <img src="ayaz-alam.png"
-     alt="Ayaz Alam"
-     class="avatar"
-     onerror="this.style.display='none';document.getElementById('avatarFallback').style.display='flex';">
-
-    <div class="avatar-fallback" id="avatarFallback" style="display:none">
-     AA
-    </div>
-
-   </div>
-
-   <div class="float-card float-one">
-    <div class="float-icon"><i class="fa-brands fa-python"></i></div>
-    <div>
-     <div class="float-title">Programming</div>
-     <div class="float-value">Python · SQL</div>
-    </div>
-   </div>
-
-   <div class="float-card float-two">
-    <div class="float-icon"><i class="fa-solid fa-brain"></i></div>
-    <div>
-     <div class="float-title">AI Architecture</div>
-     <div class="float-value">LLM · RAG</div>
-    </div>
-   </div>
-
-   <div class="float-card float-three">
-    <div class="float-icon"><i class="fa-solid fa-server"></i></div>
-    <div>
-     <div class="float-title">Backend</div>
-     <div class="float-value">APIs · FastAPI</div>
-    </div>
-   </div>
+   <div class="orbit"><img class="avatar" src="ayaz-alam.png" alt="Ayaz Alam portrait"></div>
+   <div class="float-card float-one"><div class="float-icon"><i class="fa-solid fa-brain"></i></div><div><div class="float-title">FOCUS</div><div class="float-value">Generative AI</div></div></div>
+   <div class="float-card float-two"><div class="float-icon"><i class="fa-brands fa-python"></i></div><div><div class="float-title">BACKEND</div><div class="float-value">Python · FastAPI</div></div></div>
+   <div class="float-card float-three"><div class="float-icon"><i class="fa-solid fa-diagram-project"></i></div><div><div class="float-title">ARCHITECTURE</div><div class="float-value">RAG · LLM Apps</div></div></div>
   </div>
-
  </div>
 </section>
 
 <hr class="divider">
 
-<!-- ABOUT -->
-
 <section class="content-section container" id="about">
-
  <div class="section-head reveal">
   <div class="section-label">01 / About Me</div>
-  <h2>Engineering mindset.<br>
-   <span class="gradient-text">AI-driven direction.</span>
-  </h2>
-  <p class="section-intro">
-   My background combines computer science, data analytics,
-   operational troubleshooting and practical technology work.
-   I am now focused on developing reliable AI applications and
-   understanding the engineering behind modern intelligent systems.
-  </p>
+  <h2>Computer science.<br><span class="gradient-text">AI application engineering.</span></h2>
+  <p class="section-intro">Computer Science graduate with internship experience in Python Programming and Artificial Intelligence & Generative AI. My project work focuses on integrating LLMs, building retrieval-based AI workflows and developing secure, database-driven Python APIs.</p>
  </div>
-
  <div class="terminal glass reveal">
-  <div class="terminal-head">
-   <span class="terminal-dot"></span>
-   <span class="terminal-dot"></span>
-   <span class="terminal-dot"></span>
-   <span class="terminal-title">ayaz@engineering: ~/profile</span>
-  </div>
-
+  <div class="terminal-head"><span class="terminal-dot"></span><span class="terminal-dot"></span><span class="terminal-dot"></span><span class="terminal-title">ayaz@engineering: ~/profile</span></div>
   <div class="terminal-body">
-   <div><span class="terminal-green">$</span> whoami</div>
-   <div class="terminal-purple">Ayaz Alam — Computer Science Graduate</div>
-
-   <div><span class="terminal-green">$</span> current_focus</div>
-   <div>LLM Applications · RAG · AI Agents · Backend APIs</div>
-
-   <div><span class="terminal-green">$</span> engineering_stack</div>
-   <div>Python · SQL · PostgreSQL · FastAPI · Linux · Git</div>
-
-   <div><span class="terminal-green">$</span> objective</div>
-   <div>Build useful, reliable and evidence-grounded AI systems.</div>
-
+   <div><span class="terminal-green">$</span> whoami</div><div class="terminal-purple">Ayaz Alam — B.Tech, Computer Science & Engineering</div>
+   <div><span class="terminal-green">$</span> target_roles</div><div>Junior Generative AI Engineer · LLM Application Developer · Python Backend Developer (AI Applications)</div>
+   <div><span class="terminal-green">$</span> ai_stack</div><div>Gemini API · RAG · LangGraph · Embeddings · pgvector · Neo4j</div>
+   <div><span class="terminal-green">$</span> backend_stack</div><div>Python · FastAPI · REST APIs · PostgreSQL · SQLAlchemy · JWT</div>
+   <div><span class="terminal-green">$</span> objective</div><div>Build useful, reliable and well-tested AI-powered applications.</div>
    <div><span class="terminal-green">$</span> <span class="terminal-purple">_</span></div>
   </div>
  </div>
@@ -1194,598 +1092,116 @@ footer{
 
 <hr class="divider">
 
-<!-- EXPERIENCE -->
-
 <section class="content-section container" id="experience">
-
  <div class="section-head reveal">
-  <div class="section-label">02 / Professional Experience</div>
-  <h2>Practical experience.<br>
-   <span class="gradient-text">Real-world exposure.</span>
-  </h2>
-  <p class="section-intro">
-   Internship experience across data analytics, reporting,
-   systems support and operational workflows.
-  </p>
+  <div class="section-label">02 / Internship Experience</div>
+  <h2>Relevant learning.<br><span class="gradient-text">Hands-on exposure.</span></h2>
+  <p class="section-intro">Internship experience in Python programming and Artificial Intelligence & Generative AI.</p>
  </div>
-
  <div class="experience-grid">
-
   <article class="experience-card glass reveal">
-   <div class="experience-top">
-    <div>
-     <div class="role">Data Analyst Intern</div>
-     <div class="company">Orynex · Remote</div>
-    </div>
-    <div class="date">Oct 2026 – Present</div>
-   </div>
-
+   <div class="experience-top"><div><div class="role">Artificial Intelligence & Generative AI Intern</div><div class="company">Skills4India</div></div><div class="date">Jul 2025 – Sep 2025 · 2 months</div></div>
    <ul class="bullet-list">
-    <li>Perform data cleaning, preparation and validation using SQL and Python/Pandas.</li>
-    <li>Develop KPI reports and Power BI dashboards using DAX and Power Query.</li>
-    <li>Conduct exploratory analysis across business, customer, product and operational datasets.</li>
-    <li>Translate analytical findings into structured reports for business performance monitoring.</li>
+    <li>Successfully completed a two-month internship in Artificial Intelligence and Generative AI.</li>
+    <li>Gained exposure to AI concepts, Generative AI technologies and practical project-based learning.</li>
    </ul>
-
-   <!-- PASTE ORYNEX INTERNSHIP DETAILS / OFFER / WORK PROOF LINK HERE -->
-   <a class="detail-link"
-      href="https://drive.google.com/drive/folders/1kR17t0MH0G5tZk2MbZg1tQVtwXo9hWOy?usp=sharing"
-      target="_blank" rel="noopener noreferrer">
-    Further Details <i class="fa-solid fa-arrow-up-right-from-square"></i>
-   </a>
   </article>
-
   <article class="experience-card glass reveal">
-   <div class="experience-top">
-    <div>
-     <div class="role">IT Support & Systems Intern</div>
-     <div class="company">SkillsIndia</div>
-    </div>
-    <div class="date">Jul 2025 – Sep 2025</div>
-   </div>
-
+   <div class="experience-top"><div><div class="role">Python Programming Intern</div><div class="company">YBI Foundation</div></div><div class="date">Sep 2024 – Oct 2024 · 1 month</div></div>
    <ul class="bullet-list">
-    <li>Investigated and resolved 15–20+ L1 incidents per week using system diagnostics and log analysis.</li>
-    <li>Created SOPs and troubleshooting guides, contributing to approximately 20% fewer repeat incidents.</li>
-    <li>Supported user environment setup, access provisioning and application configuration.</li>
-    <li>Maintained incident documentation and escalation workflows.</li>
+    <li>Successfully completed a one-month Python Programming Internship.</li>
+    <li>Participated in programming tasks and practical project-based learning.</li>
    </ul>
-
-   <!-- PASTE SKILLSINDIA INTERNSHIP DOCUMENT LINK HERE -->
-   <a class="detail-link"
-      href="https://drive.google.com/file/d/1tKoenGyysElB78oQ3umqvvAiXr5cyxkm/view?usp=sharing"
-      target="_blank" rel="noopener noreferrer">
-    Further Details <i class="fa-solid fa-arrow-up-right-from-square"></i>
-   </a>
   </article>
-
-  <article class="experience-card glass reveal">
-   <div class="experience-top">
-    <div>
-     <div class="role">Data Science Intern</div>
-     <div class="company">Celebal Technologies · Remote</div>
-    </div>
-    <div class="date">May 2025 – Jul 2025</div>
-   </div>
-
-   <ul class="bullet-list">
-    <li>Analysed 20,000+ records using Python and SQL to identify reporting inefficiencies.</li>
-    <li>Cleaned and validated datasets using Pandas, contributing to a 15% improvement in dataset accuracy.</li>
-    <li>Automated recurring reporting workflows, reducing manual effort by 10+ hours per week.</li>
-    <li>Performed exploratory data analysis to identify trends and operational bottlenecks.</li>
-   </ul>
-
-   <!-- PASTE CELEBAL INTERNSHIP CERTIFICATE / DETAILS LINK HERE -->
-   <a class="detail-link"
-      href="https://drive.google.com/drive/folders/1hRQ2KbTIFj5E9iqCD7gJbJMo_99VbkjY?usp=sharing"
-      target="_blank" rel="noopener noreferrer">
-    Further Details <i class="fa-solid fa-arrow-up-right-from-square"></i>
-   </a>
-  </article>
-
-  <article class="experience-card glass reveal">
-   <div class="experience-top">
-    <div>
-     <div class="role">Power BI Dashboard Intern</div>
-     <div class="company">YuvaIntern</div>
-    </div>
-    <div class="date">Jan 2026 – Mar 2026</div>
-   </div>
-
-   <ul class="bullet-list">
-    <li>Developed interactive Power BI dashboards using DAX and Power Query.</li>
-    <li>Consolidated multi-source data into unified KPI reports.</li>
-    <li>Visualised revenue trends and operational metrics to support business decisions.</li>
-   </ul>
-
-   <!-- PASTE YUVAINTERN DETAILS / CERTIFICATE LINK HERE -->
-   <a class="detail-link"
-      href="https://drive.google.com/drive/folders/1DpWr32DEnfavnl_Q4mvQxnMuPx8Jc6kU?usp=sharing"
-      target="_blank" rel="noopener noreferrer">
-    Further Details <i class="fa-solid fa-arrow-up-right-from-square"></i>
-   </a>
-  </article>
-
  </div>
 </section>
 
 <hr class="divider">
-
-<!-- PROJECTS -->
 
 <section class="content-section container" id="projects">
-
  <div class="section-head reveal">
-  <div class="section-label">03 / Engineering Portfolio</div>
-  <h2>Systems I'm <span class="gradient-text">building.</span></h2>
-  <p class="section-intro">
-   Exploring practical applications of LLMs, retrieval systems,
-   AI agents and backend engineering.
-  </p>
+  <div class="section-label">03 / Selected Projects</div>
+  <h2>Projects built with<br><span class="gradient-text">AI & backend engineering.</span></h2>
+  <p class="section-intro">Two technical projects demonstrating LLM integration, retrieval workflows, API architecture, authentication and automated testing.</p>
  </div>
-
  <div class="projects-grid">
-
   <article class="project-card glass reveal">
-   <div class="project-top">
-    <div class="project-icon">
-     <i class="fa-solid fa-magnifying-glass-chart"></i>
-    </div>
-    <div class="project-link">
-     <i class="fa-brands fa-github"></i> GitHub
-    </div>
-   </div>
-
-   <div class="project-status">Portfolio concept / In development</div>
-
-   <h3 class="project-title">
-    IncidentLens — AI-Powered Production Incident Investigation Copilot
-   </h3>
-
-   <p class="project-desc">
-    An AI-assisted incident investigation concept designed to help
-    engineering teams analyse application logs, retrieve relevant
-    troubleshooting knowledge and investigate potential system failures.
-   </p>
-
+   <div class="project-top"><div class="project-icon"><i class="fa-solid fa-book-open"></i></div><a class="project-link" href="https://khilafah-ai-frontend.vercel.app/" target="_blank" rel="noopener noreferrer">Live Demo ↗</a></div>
+   <div class="project-status">Flagship · AI Research Platform</div>
+   <h3 class="project-title">KHILAFAH AI — AI-Powered Research & Knowledge Platform</h3>
+   <p class="project-desc">An educational research platform combining Gemini-powered conversational AI, document retrieval and knowledge exploration. Created and iteratively developed as an AI application project.</p>
    <ul class="project-features">
-    <li>RAG-based retrieval of runbooks and historical incidents.</li>
-    <li>Evidence-linked root cause hypotheses.</li>
-    <li>Structured diagnostic recommendations.</li>
-    <li>Human approval before proposed remediation.</li>
+    <li>Integrated Google Gemini with a LangGraph workflow: query router, domain agent and source-verification agent.</li>
+    <li>Built document upload, chunking, embeddings and semantic retrieval using PostgreSQL and pgvector.</li>
+    <li>Integrated a Neo4j-backed civilization knowledge graph with a sample seed dataset.</li>
+    <li>Includes multilingual AI chat, governance and economics research modules, learning academy and admin features.</li>
+    <li>Backend test suite: 34 passing tests, as documented in the repository.</li>
    </ul>
-
-   <div class="tech-stack">
-    <span class="tech">Python</span>
-    <span class="tech">FastAPI</span>
-    <span class="tech">LLM API</span>
-    <span class="tech">RAG</span>
-    <span class="tech">PostgreSQL</span>
-    <span class="tech">Docker</span>
-   </div>
-
-   <!-- REPLACE WITH ACTUAL INCIDENTLENS GITHUB REPOSITORY LINK -->
-   <a class="detail-link"
-      href="https://github.com/ayazcse/IncidentLens-AI-Powered-Production-Incident-Investigation-Copilo"
-      target="_blank" rel="noopener noreferrer">
-    View Project <i class="fa-solid fa-arrow-up-right-from-square"></i>
-   </a>
+   <div class="tech-stack"><span class="tech">Python</span><span class="tech">FastAPI</span><span class="tech">Gemini API</span><span class="tech">LangGraph</span><span class="tech">RAG</span><span class="tech">PostgreSQL</span><span class="tech">pgvector</span><span class="tech">Neo4j</span><span class="tech">Next.js</span><span class="tech">TypeScript</span></div>
+   <a class="detail-link" href="https://github.com/ayazcse/khilafah-ai" target="_blank" rel="noopener noreferrer">View GitHub Repository <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+   <a class="detail-link" href="https://khilafah-ai-frontend.vercel.app/chat" target="_blank" rel="noopener noreferrer">Open AI Chat <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
   </article>
 
   <article class="project-card glass reveal">
-   <div class="project-top">
-    <div class="project-icon">
-     <i class="fa-solid fa-diagram-project"></i>
-    </div>
-    <div class="project-link">
-     <i class="fa-brands fa-github"></i> GitHub
-    </div>
-   </div>
-
-   <div class="project-status">Portfolio concept / In development</div>
-
-   <h3 class="project-title">
-    ProcureMind — Multi-Agent Vendor Risk & Decision Intelligence
-   </h3>
-
-   <p class="project-desc">
-    A proposed multi-agent decision-support system that analyses
-    vendor proposals, procurement documents and compliance
-    requirements to produce structured, traceable comparisons.
-   </p>
-
+   <div class="project-top"><div class="project-icon"><i class="fa-solid fa-users-gear"></i></div><a class="project-link" href="https://github.com/ayazcse/Python-REST-API-Backend-" target="_blank" rel="noopener noreferrer">GitHub ↗</a></div>
+   <div class="project-status">Python Backend · REST API</div>
+   <h3 class="project-title">HRMS API — Human Resource Management System</h3>
+   <p class="project-desc">A modular HR management REST API built with FastAPI and a layered API–Service–Repository–Database architecture.</p>
    <ul class="project-features">
-    <li>Specialised document extraction and analysis agents.</li>
-    <li>RAG-powered evidence retrieval.</li>
-    <li>SQL-based vendor scoring and comparisons.</li>
-    <li>Human-in-the-loop recommendation review.</li>
+    <li>Implemented employee, department, attendance and leave-management workflows.</li>
+    <li>Added JWT access and refresh tokens, password hashing and role-based access control.</li>
+    <li>Built validation, pagination, filtering, centralized logging and consistent error handling.</li>
+    <li>Integrated SQLAlchemy, Alembic migrations, Docker configuration and CI workflow.</li>
+    <li>Repository README documents 59 tests and approximately 95% test coverage.</li>
    </ul>
-
-   <div class="tech-stack">
-    <span class="tech">Python</span>
-    <span class="tech">FastAPI</span>
-    <span class="tech">LangGraph</span>
-    <span class="tech">LLMs</span>
-    <span class="tech">SQL</span>
-    <span class="tech">RAG</span>
-   </div>
-
-   <!-- REPLACE WITH ACTUAL PROCUREMIND GITHUB REPOSITORY LINK -->
-   <a class="detail-link"
-      href="https://github.com/ayazcse/-ProcureMind-Multi-Agent-Vendor-Risk-Decision-Intelligenc"
-      target="_blank" rel="noopener noreferrer">
-    View Project <i class="fa-solid fa-arrow-up-right-from-square"></i>
-   </a>
+   <div class="tech-stack"><span class="tech">Python</span><span class="tech">FastAPI</span><span class="tech">SQLAlchemy</span><span class="tech">Pydantic</span><span class="tech">SQLite</span><span class="tech">JWT</span><span class="tech">Docker</span><span class="tech">Pytest</span><span class="tech">Alembic</span></div>
+   <a class="detail-link" href="https://github.com/ayazcse/Python-REST-API-Backend-" target="_blank" rel="noopener noreferrer">View GitHub Repository <i class="fa-solid fa-arrow-up-right-from-square"></i></a>
   </article>
-
  </div>
-
- <p style="color:var(--muted);font-size:.72rem;margin-top:20px">
-  Project descriptions represent development concepts. Implementation,
-  testing and repository links will be updated as work progresses.
- </p>
 </section>
 
 <hr class="divider">
-
-<!-- SKILLS -->
 
 <section class="content-section container" id="skills">
-
- <div class="section-head reveal">
-  <div class="section-label">04 / Technical Expertise</div>
-  <h2>Tools behind the <span class="gradient-text">thinking.</span></h2>
-  <p class="section-intro">
-   A growing engineering toolkit spanning programming,
-   backend systems, AI application architecture and data platforms.
-  </p>
- </div>
-
+ <div class="section-head reveal"><div class="section-label">04 / Technical Skills</div><h2>Technology behind the<br><span class="gradient-text">applications.</span></h2><p class="section-intro">Technical skills aligned with the projects and target roles listed in my resume.</p></div>
  <div class="skills-grid">
-
-  <div class="skill-card glass reveal">
-   <div class="skill-card-title">Programming & Data</div>
-   <div class="skill-list">
-    <span class="skill-item">Python</span>
-    <span class="skill-item">SQL</span>
-    <span class="skill-item">Pandas</span>
-    <span class="skill-item">NumPy</span>
-    <span class="skill-item">JSON</span>
-    <span class="skill-item">Data Structures</span>
-   </div>
-  </div>
-
-  <div class="skill-card glass reveal">
-   <div class="skill-card-title">Backend & APIs</div>
-   <div class="skill-list">
-    <span class="skill-item">REST APIs</span>
-    <span class="skill-item">FastAPI</span>
-    <span class="skill-item">API Integration</span>
-    <span class="skill-item">Request / Response</span>
-   </div>
-  </div>
-
-  <div class="skill-card glass reveal">
-   <div class="skill-card-title">Generative AI</div>
-   <div class="skill-list">
-    <span class="skill-item">LLM Fundamentals</span>
-    <span class="skill-item">Prompt Engineering</span>
-    <span class="skill-item">Embeddings</span>
-    <span class="skill-item">RAG</span>
-    <span class="skill-item">AI Agents</span>
-    <span class="skill-item">Tool Calling</span>
-   </div>
-  </div>
-
-  <div class="skill-card glass reveal">
-   <div class="skill-card-title">AI Frameworks</div>
-   <div class="skill-list">
-    <span class="skill-item">LangChain</span>
-    <span class="skill-item">LangGraph</span>
-    <span class="skill-item">LLM APIs</span>
-    <span class="skill-item">Vector Databases</span>
-   </div>
-  </div>
-
-  <div class="skill-card glass reveal">
-   <div class="skill-card-title">Databases</div>
-   <div class="skill-list">
-    <span class="skill-item">PostgreSQL</span>
-    <span class="skill-item">MySQL</span>
-    <span class="skill-item">SQLite</span>
-   </div>
-  </div>
-
-  <div class="skill-card glass reveal">
-   <div class="skill-card-title">Cloud & Development</div>
-   <div class="skill-list">
-    <span class="skill-item">AWS EC2</span>
-    <span class="skill-item">AWS S3</span>
-    <span class="skill-item">AWS IAM</span>
-    <span class="skill-item">CloudWatch</span>
-    <span class="skill-item">Linux</span>
-    <span class="skill-item">Git</span>
-    <span class="skill-item">GitHub</span>
-    <span class="skill-item">Docker</span>
-   </div>
-  </div>
-
-  <div class="skill-card glass reveal">
-   <div class="skill-card-title">Business Intelligence</div>
-   <div class="skill-list">
-    <span class="skill-item">Power BI</span>
-    <span class="skill-item">DAX</span>
-    <span class="skill-item">Power Query</span>
-    <span class="skill-item">Excel</span>
-    <span class="skill-item">Tableau</span>
-   </div>
-  </div>
-
-  <div class="skill-card glass reveal">
-   <div class="skill-card-title">Engineering Practices</div>
-   <div class="skill-list">
-    <span class="skill-item">Data Validation</span>
-    <span class="skill-item">ETL</span>
-    <span class="skill-item">Log Analysis</span>
-    <span class="skill-item">Troubleshooting</span>
-    <span class="skill-item">Documentation</span>
-   </div>
-  </div>
-
-  <div class="skill-card glass reveal">
-   <div class="skill-card-title">Tools & Productivity</div>
-   <div class="skill-list">
-    <span class="skill-item">Jupyter</span>
-    <span class="skill-item">VS Code</span>
-    <span class="skill-item">Jira</span>
-    <span class="skill-item">Postman</span>
-   </div>
-  </div>
-
+  <div class="skill-card glass reveal"><div class="skill-card-title">Programming Languages</div><div class="skill-list"><span class="skill-item">Python</span><span class="skill-item">SQL</span><span class="skill-item">JavaScript</span><span class="skill-item">TypeScript</span></div></div>
+  <div class="skill-card glass reveal"><div class="skill-card-title">Generative AI & LLM</div><div class="skill-list"><span class="skill-item">Generative AI</span><span class="skill-item">LLM Integration</span><span class="skill-item">Google Gemini API</span><span class="skill-item">Prompt Engineering</span><span class="skill-item">RAG</span><span class="skill-item">Text Embeddings</span><span class="skill-item">Semantic Search</span><span class="skill-item">LangGraph</span><span class="skill-item">Multi-Agent Workflows</span></div></div>
+  <div class="skill-card glass reveal"><div class="skill-card-title">Backend Development</div><div class="skill-list"><span class="skill-item">FastAPI</span><span class="skill-item">REST APIs</span><span class="skill-item">Pydantic</span><span class="skill-item">SQLAlchemy</span><span class="skill-item">JWT Authentication</span><span class="skill-item">RBAC</span><span class="skill-item">CRUD Operations</span></div></div>
+  <div class="skill-card glass reveal"><div class="skill-card-title">Databases & Knowledge Systems</div><div class="skill-list"><span class="skill-item">PostgreSQL</span><span class="skill-item">pgvector</span><span class="skill-item">SQLite</span><span class="skill-item">MySQL</span><span class="skill-item">Neo4j</span><span class="skill-item">Vector Databases</span><span class="skill-item">Knowledge Graphs</span></div></div>
+  <div class="skill-card glass reveal"><div class="skill-card-title">Frontend Development</div><div class="skill-list"><span class="skill-item">Next.js 14</span><span class="skill-item">React 18</span><span class="skill-item">TypeScript</span><span class="skill-item">Tailwind CSS</span></div></div>
+  <div class="skill-card glass reveal"><div class="skill-card-title">Developer Tools</div><div class="skill-list"><span class="skill-item">Git</span><span class="skill-item">GitHub</span><span class="skill-item">Docker</span><span class="skill-item">Docker Compose</span><span class="skill-item">Pytest</span><span class="skill-item">Alembic</span><span class="skill-item">GitHub Actions</span><span class="skill-item">Postman</span></div></div>
  </div>
-
- <p style="font-size:.7rem;color:var(--muted);margin-top:18px">
-  Skill categories include technologies at different learning and
-  practical exposure levels. Project-specific implementation is
-  described separately.
- </p>
 </section>
 
 <hr class="divider">
-
-<!-- EDUCATION -->
 
 <section class="content-section container" id="education">
-
- <div class="section-head reveal">
-  <div class="section-label">05 / Education</div>
-  <h2>Academic <span class="gradient-text">foundation.</span></h2>
- </div>
-
+ <div class="section-head reveal"><div class="section-label">05 / Education</div><h2>Academic <span class="gradient-text">foundation.</span></h2></div>
  <div class="education-grid">
-
-  <div class="education-card glass reveal">
-   <div>
-    <div class="edu-degree">B.Tech — Computer Science & Engineering</div>
-    <div class="edu-school">Galgotias University · Greater Noida, Uttar Pradesh</div>
-   </div>
-   <div>
-    <div class="edu-score">8.0 / 10</div>
-    <div class="edu-year">Final Semester SGPA · 2026</div>
-
-    <!-- PASTE B.TECH MARKSHEET / DEGREE GOOGLE DRIVE LINK HERE -->
-    <a class="edu-action"
-       href="https://drive.google.com/file/d/1YEZnWeLOup7iHd3VVobhLKwsDq2njZNI/view?usp=sharing"
-       target="_blank" rel="noopener noreferrer">
-     View Document ↗
-    </a>
-   </div>
-  </div>
-
-  <div class="education-card glass reveal">
-   <div>
-    <div class="edu-degree">Class XII — CBSE</div>
-    <div class="edu-school">Senior Secondary Education</div>
-   </div>
-   <div>
-    <div class="edu-score">80%</div>
-    <div class="edu-year">2021</div>
-
-    <!-- PASTE CLASS 12 MARKSHEET GOOGLE DRIVE LINK HERE -->
-    <a class="edu-action"
-       href="https://drive.google.com/file/d/19x8d4Oj-_c5u9886ebc2u-cPQ6DJc9ks/view?usp=sharing"
-       target="_blank" rel="noopener noreferrer">
-     View Marksheet ↗
-    </a>
-   </div>
-  </div>
-
-  <div class="education-card glass reveal">
-   <div>
-    <div class="edu-degree">Class X — CBSE</div>
-    <div class="edu-school">Secondary Education</div>
-   </div>
-   <div>
-    <div class="edu-score">90%</div>
-    <div class="edu-year">2019</div>
-
-    <!-- PASTE CLASS 10 MARKSHEET GOOGLE DRIVE LINK HERE -->
-    <a class="edu-action"
-       href="https://drive.google.com/file/d/19zy75_q95Tjb3gdDnT9xlbp_IShlMRlD/view?usp=sharing"
-       target="_blank" rel="noopener noreferrer">
-     View Marksheet ↗
-    </a>
-   </div>
-  </div>
-
+  <div class="education-card glass reveal"><div><div class="edu-degree">B.Tech — Computer Science & Engineering</div><div class="edu-school">Galgotias University · Greater Noida, Uttar Pradesh</div></div><div><div class="edu-score">7.20 / 10</div><div class="edu-year">CGPA · 2026</div><div class="edu-year">8th Semester SGPA: 8.0</div></div></div>
+  <div class="education-card glass reveal"><div><div class="edu-degree">Class XII</div><div class="edu-school">Creane Memorial High School</div></div><div><div class="edu-score">75%</div><div class="edu-year">2021</div></div></div>
+  <div class="education-card glass reveal"><div><div class="edu-degree">Class X</div><div class="edu-school">Creane Memorial High School</div></div><div><div class="edu-score">87%</div><div class="edu-year">2019</div></div></div>
  </div>
 </section>
 
 <hr class="divider">
-
-<!-- CERTIFICATIONS -->
-
-<section class="content-section container" id="certifications">
-
- <div class="section-head reveal">
-  <div class="section-label">06 / Certifications & Achievements</div>
-  <h2>Learning, credentials<br>
-   <span class="gradient-text">& recognition.</span>
-  </h2>
- </div>
-
- <div class="credentials-grid">
-
-  <article class="credential glass reveal">
-   <div class="credential-icon">
-    <i class="fa-solid fa-network-wired"></i>
-   </div>
-   <div>
-    <div class="credential-title">Cisco CCNA — Introduction to Networks</div>
-    <div class="credential-sub">Networking fundamentals</div>
-
-    <!-- PASTE CISCO CERTIFICATE GOOGLE DRIVE LINK HERE -->
-    <a class="detail-link"
-       href="https://www.credly.com/badges/b59d20f2-838f-454e-8312-b6248a2252e1/public_url"
-       target="_blank" rel="noopener noreferrer">
-     Open Certificate ↗
-    </a>
-   </div>
-  </article>
-
-  <article class="credential glass reveal">
-   <div class="credential-icon">
-    <i class="fa-solid fa-shield-halved"></i>
-   </div>
-   <div>
-    <div class="credential-title">ISC2 Candidate</div>
-    <div class="credential-sub">Cybersecurity Foundations · 2025–2026</div>
-
-    <!-- PASTE ISC2 CERTIFICATE / PROOF LINK HERE -->
-    <a class="detail-link"
-       href="https://www.credly.com/badges/fd2c1ba6-6744-4b82-af53-19522ff01082/public_url"
-       target="_blank" rel="noopener noreferrer">
-     Open Certificate ↗
-    </a>
-   </div>
-  </article>
-
-  <article class="credential glass reveal">
-   <div class="credential-icon">
-    <i class="fa-solid fa-brain"></i>
-   </div>
-   <div>
-    <div class="credential-title">Artificial Intelligence & Generative AI</div>
-    <div class="credential-sub">Skills4India</div>
-
-    <!-- PASTE SKILLS4INDIA CERTIFICATE GOOGLE DRIVE LINK HERE -->
-    <a class="detail-link"
-       href="https://drive.google.com/file/d/1tKoenGyysElB78oQ3umqvvAiXr5cyxkm/view?usp=sharing"
-       target="_blank" rel="noopener noreferrer">
-     Open Certificate ↗
-    </a>
-   </div>
-  </article>
-
-  <article class="credential glass reveal">
-   <div class="credential-icon">
-    <i class="fa-brands fa-python"></i>
-   </div>
-   <div>
-    <div class="credential-title">Python for Data Science</div>
-    <div class="credential-sub">YBI Foundation</div>
-
-    <!-- PASTE YBI CERTIFICATE GOOGLE DRIVE LINK HERE -->
-    <a class="detail-link"
-       href="https://drive.google.com/file/d/1z-pfhOUeQthdI9hIoXU0KSR_XJ1HkKAC/view?usp=sharing"
-       target="_blank" rel="noopener noreferrer">
-     Open Certificate ↗
-    </a>
-   </div>
-  </article>
-
-  <article class="credential glass reveal">
-   <div class="credential-icon">
-    <i class="fa-solid fa-trophy"></i>
-   </div>
-   <div>
-    <div class="credential-title">Top 5 Finalist — Build With AI Hackathon</div>
-    <div class="credential-sub">Among 50+ participating teams</div>
-
-    <!-- PASTE HACKATHON CERTIFICATE / PROOF LINK HERE -->
-    <a class="detail-link"
-       href="https://drive.google.com/file/d/1SjG8S4w8LjUHaOlBE8cvHgDgdVqnzLBY/view?usp=sharing"
-       target="_blank" rel="noopener noreferrer">
-     Open Certificate ↗
-    </a>
-   </div>
-  </article>
-
- </div>
-</section>
-
-<hr class="divider">
-
-<!-- CONTACT -->
 
 <section class="content-section container" id="contact">
-
  <div class="contact-box glass reveal">
-
-  <div class="section-label">07 / Contact</div>
-
-  <h2>
-   Let's build something<br>
-   <span class="gradient-text">intelligent.</span>
-  </h2>
-
-  <p class="contact-text">
-   Interested in AI Engineering, Generative AI, LLM applications
-   and Python backend development. Open to meaningful opportunities
-   and conversations around practical engineering.
-  </p>
-
+  <div class="section-label">06 / Contact</div><h2>Let's build something<br><span class="gradient-text">intelligent.</span></h2>
+  <p class="contact-text">Interested in Junior Generative AI Engineer, LLM Application Developer and Python Backend Developer (AI Applications) opportunities, including relevant internships.</p>
   <div class="contact-links">
-
-   <a href="mailto:ayazxalam@gmail.com" class="contact-chip">
-    <i class="fa-regular fa-envelope"></i>
-    Email Me
-   </a>
-
-   <a href="https://www.linkedin.com/in/ayaz-alam-ab0b69312/"
-      target="_blank" rel="noopener noreferrer" class="contact-chip">
-    <i class="fa-brands fa-linkedin"></i>
-    LinkedIn
-   </a>
-
-   <a href="https://github.com/ayazcse"
-      target="_blank" rel="noopener noreferrer" class="contact-chip">
-    <i class="fa-brands fa-github"></i>
-    GitHub
-   </a>
-
-   <a href="tel:+919142785551" class="contact-chip">
-    <i class="fa-solid fa-phone"></i>
-    +91 91427 85551
-   </a>
-
+   <a href="mailto:ayazxalam@gmail.com" class="contact-chip"><i class="fa-regular fa-envelope"></i>Email Me</a>
+   <a href="https://www.linkedin.com/in/ayaz-alam-ab0b69312/" target="_blank" rel="noopener noreferrer" class="contact-chip"><i class="fa-brands fa-linkedin"></i>LinkedIn</a>
+   <a href="https://github.com/ayazcse" target="_blank" rel="noopener noreferrer" class="contact-chip"><i class="fa-brands fa-github"></i>GitHub</a>
+   <a href="tel:+919142785551" class="contact-chip"><i class="fa-solid fa-phone"></i>+91 91427 85551</a>
   </div>
  </div>
 </section>
-
 </main>
 
-<!-- FOOTER -->
-
-<footer class="container">
- <div>
-  © 2026 Ayaz Alam · AI Engineering & Python Development
-  <br>
-  Greater Noida, Uttar Pradesh, India
- </div>
-
- <div class="footer-logo">Ayaz<span class="gradient-text">.</span></div>
-</footer>
+<footer class="container"><div>© 2026 Ayaz Alam · Generative AI & Python Backend Development<br>Greater Noida, Uttar Pradesh, India</div><div class="footer-logo">Ayaz<span class="gradient-text">.</span></div></footer>
 
 <script>
 
